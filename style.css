@@ -1,0 +1,16 @@
+body{  
+    font-family:Georgia, Arial, Helvetica, Sans-serif,serif;
+    font-size:15px;
+    color: #bbb;
+    background-image: url("/images/home/mexican backgound.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size:50px;
+}
+ 
+h3 {
+    font-size:22px;
+}
