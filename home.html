@@ -2,25 +2,34 @@
     <head>
         <title>project1</title>
         <link rel="stylesheet" href="style.css">
-
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     </head>
     <body>
         <ul>
             <li><A HREF='tacos.html'>Tacos</A></li>
             <li><A HREF='drinks.html'>Drinks</A></li>
         </ul>
-        <h1>TA'CABRON</h1>
-        <h2>Our Specialities</h2>
+        <div class="title">TA'CABRON</div>
+        <div class="subtitle">Our Specialities</div>
         <div>
-            <table>
-                <thead>
-                    <tr><th>Tacos</th><th>Drinks</tr>
-                </thead>
-                <tbody>
-                    <tr><td><A href='tacos.html'><img src="/images/home/tacos.jpg" alt="tacos" height="300"  /></A></td>
-                    <td><A href="drinks.html"><img src="/images/drinks/alldrinks.jpg" alt="drinks" height="300"  /></A></td.
-                </tbody>
-            </table>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        Tacos
+                        <div>
+                            <A href="tacos.html"><img src="/images/home/tacos.jpg" alt="tacos" height="300"  /></A>
+                        </div>
+                    </div>
+                    <div class="col">
+                        Drinks
+                        <div>
+                            <A href="drinks.html"><img src="/images/drinks/alldrinks.jpg" alt="drinks" height="300"  /></A>
+                        </div>
+                    </div> 
+                </div>
+            </div>  
         </div>
         <p />
         <form action="https://formspree.io/f/xwpbejvd" method="post">
@@ -36,5 +45,7 @@
                 <input type="submit" value="Submit" />
             </div> 
         </form>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
     </body>
 </html>

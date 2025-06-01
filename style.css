@@ -61,3 +61,21 @@ form {
     text-align: center;
     color: azure;
 }
+
+.col {
+    font-size: larger;
+    text-align: center;
+    color: azure;
+}
+
+.title {
+    font-size: 75px;
+    color: yellow;
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    color:azure;
+    font-size: 50px;
+}
